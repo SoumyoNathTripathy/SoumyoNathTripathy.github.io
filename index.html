@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumyo Nath Tripathy | Software Development Engineer</title>
+    <meta name="description" content="SDE I at Amazon Fire TV | Full-Stack Engineer | Systems Builder">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shapes"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>SNT<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Hi, I'm <span class="gradient-text">Soumyo Nath</span><br>Tripathy
+                </h1>
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    Software Development Engineer I at <span class="highlight">Amazon Fire TV</span>
+                </p>
+                <p class="hero-description animate-fade-up delay-3">
+                    Building scalable distributed systems, device firmware features, and cloud infrastructure. 
+                    From React Native OOBE flows to AWS CDK services — I ship production code that impacts millions of Fire TV customers worldwide.
+                </p>
+                <div class="hero-stats animate-fade-up delay-4">
+                    <div class="stat">
+                        <span class="stat-number" data-count="35">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">CRs Shipped</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="7">0</span>
+                        <span class="stat-label">On-Calls Served</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">IEEE Papers</span>
+                    </div>
+                </div>
+                <div class="hero-cta animate-fade-up delay-4">
+                    <a href="#experience" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="hero-socials animate-fade-up delay-4">
+                    <a href="https://www.linkedin.com/in/soumyo2001/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/SoumyoNathTripathy" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/heisenberg10/" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/soumyonath25" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-up delay-2">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-ring"></div>
+                    <div class="hero-image-ring ring-2"></div>
+                    <img src="https://avatars.githubusercontent.com/u/84381288" alt="Soumyo Nath Tripathy" class="hero-image">
+                </div>
+                <div class="floating-tech-badges">
+                    <span class="tech-badge badge-1"><i class="fab fa-aws"></i></span>
+                    <span class="tech-badge badge-2"><i class="fab fa-react"></i></span>
+                    <span class="tech-badge badge-3"><i class="fab fa-java"></i></span>
+                    <span class="tech-badge badge-4"><i class="fab fa-python"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span> About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a Software Development Engineer at <strong>Amazon Fire TV</strong>, where I build features that ship to millions of devices globally. My work spans from low-level device firmware interactions to high-level cloud infrastructure design.</p>
+                    <p>Previously at <strong>Amazon Global Stores (XB Tech & Science)</strong>, I automated metadata systems, led JDK migrations, and delivered communication features for the Bazar App launch.</p>
+                    <p>Before Amazon, I worked across the stack — from .NET enterprise platforms at <strong>Zin Technologies</strong> and <strong>IBM</strong>, to ML research at <strong>IIT Kharagpur</strong> where I published IEEE papers on satellite imagery change detection.</p>
+                    <p>Beyond tech, I'm an <strong>Indian Army SSB selected candidate</strong>, qualified <strong>NDA & JEE Advanced</strong>, and represented Bengal in <strong>Cricket Association of Bengal (CAB)</strong> from 2016-2019.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div>
+                            <h4>B.Tech Computer Science</h4>
+                            <p>IEM Kolkata | CGPA: 9.11</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Bengaluru, India</h4>
+                            <p>Open to relocation</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-briefcase"></i></div>
+                        <div>
+                            <h4>~1 Year at Amazon</h4>
+                            <p>SDE I | Fire TV Team</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-trophy"></i></div>
+                        <div>
+                            <h4>ICSE: 93.33% | ISC: 91.50%</h4>
+                            <p>South End School, Kolkata</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span> Experience
+            </h2>
+            <div class="timeline">
+                <!-- Amazon Fire TV -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Development Engineer I</h3>
+                                <h4><i class="fab fa-amazon"></i> Amazon — Fire TV (Ambient & OOBE)</h4>
+                            </div>
+                            <span class="timeline-date">Jul 2025 — Present</span>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="project-card">
+                                <h5><i class="fas fa-wifi"></i> Wake-on-WiFi/LAN (WoW/WoL) — OOBE Consent Flow</h5>
+                                <p>Implemented the complete Wake-on-Network consent flow for Fire TV Out-of-Box Experience. Built NetworkWarning and NetworkSkipWarning modules with MVVM architecture in React Native/TypeScript. Handles EU/JP region compliance for customer consent before enabling remote wake capabilities.</p>
+                                <div class="project-metrics">
+                                    <span><i class="fas fa-code-branch"></i> 10-revision CR</span>
+                                    <span><i class="fas fa-check-circle"></i> 88% test coverage</span>
+                                    <span><i class="fas fa-globe"></i> EU + JP compliance</span>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <h5><i class="fas fa-globe"></i> Ambient RootDNS — Customer-Facing Domain (photos.ambient.amazon)</h5>
+                                <p>Authored full design document and implemented customer-facing domain registration under Amazon's .amazon Brand TLD for Room Recommended Art. Set up Route 53 hosted zones, cross-account DNS delegation, ACM certificates, and CloudFront alternate domains. Replaced raw CloudFront URLs with branded domain.</p>
+                                <div class="project-metrics">
+                                    <span><i class="fas fa-file-alt"></i> Full design doc authored</span>
+                                    <span><i class="fas fa-shield-alt"></i> Multi-account DNS architecture</span>
+                                    <span><i class="fas fa-lock"></i> ACM + CloudFront</span>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <h5><i class="fas fa-server"></i> Ambient Asset Ingestion Service — New Service (0→1)</h5>
+                                <p>Building an entirely new microservice from scratch. Set up multi-stage pipeline (beta/gamma/prod), TRANSCOM localization infrastructure (SNS topics, cross-account permissions), SuperStar VPC-to-VPC connectivity for Translation Ingestion Service APIs, Hydra integration tests, and Lambda build components. Full CDK infrastructure with ECS Fargate.</p>
+                                <div class="project-metrics">
+                                    <span><i class="fas fa-rocket"></i> 0→1 service build</span>
+                                    <span><i class="fas fa-network-wired"></i> ECS Fargate + CDK</span>
+                                    <span><i class="fas fa-language"></i> TRANSCOM localization</span>
+                                </div>
+                            </div>
+                            <p class="oncall-badge"><i class="fas fa-phone-alt"></i> 3 on-call rotations — Fire TV OOBE & Ambient services</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>React Native</span><span>TypeScript</span><span>AWS CDK</span><span>ECS Fargate</span>
+                            <span>Route 53</span><span>CloudFront</span><span>SNS</span><span>Lambda</span><span>DynamoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon Global Stores -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Development Engineer I</h3>
+                                <h4><i class="fab fa-amazon"></i> Amazon — XB Tech & Science (Global Stores)</h4>
+                            </div>
+                            <span class="timeline-date">Jul 2025 (First 6 months)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Built a Java-based AWS Fargate cron job that auto-updates DynamoDB CategoryConfig table, fully automating IDQ metadata refresh from JD category feature rules.</li>
+                                <li>Led JDK 8 → JDK 17 migration across multiple services — resolved deprecated APIs, module-system conflicts, and dependency issues.</li>
+                                <li>Delivered all communication features for the <strong>Bazar App launch</strong> — messaging APIs, read/unread logic, notifications, and event-driven workflows.</li>
+                            </ul>
+                            <p class="oncall-badge"><i class="fas fa-phone-alt"></i> 4 on-call rotations — DynamoDB, JD APIs, SQS backlogs, Lambda throttling</p>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Java</span><span>AWS Fargate</span><span>DynamoDB</span><span>SQS</span><span>Lambda</span><span>JDK 17</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zin Technologies -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Jr. Software Engineer</h3>
+                                <h4><i class="fas fa-building"></i> Zin Technologies — Zesture Team</h4>
+                            </div>
+                            <span class="timeline-date">Jul 2024 — Jul 2025</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Built and optimized REST APIs using .NET Core; improved MySQL query performance by <strong>50%</strong>.</li>
+                                <li>Led SSO implementation (Azure AD) and dynamic form logic workflows for enterprise clients including Epson, Brother, Informatica, GE Healthcare.</li>
+                                <li>Migrated core modules from .NET Framework 4.6 → .NET Core 6, reducing system downtime by <strong>15%</strong>.</li>
+                                <li>Automated user/account/group profile creation, reducing onboarding time significantly.</li>
+                            </ul>
+                        </div>
+                        <div class="tech-tags">
+                            <span>C#</span><span>.NET Core</span><span>Angular</span><span>MySQL</span><span>Azure AD</span><span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Application Developer Intern</h3>
+                                <h4><i class="fas fa-building"></i> IBM — Microsoft .NET (Philip Morris International)</h4>
+                            </div>
+                            <span class="timeline-date">Jan 2024 — Jul 2024</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Developed enterprise-level applications using C# in .NET framework for Philip Morris International.</li>
+                                <li>Streamlined testing processes, contributing to a <strong>30% decrease</strong> in bug-related issues.</li>
+                            </ul>
+                        </div>
+                        <div class="tech-tags">
+                            <span>C#</span><span>.NET</span><span>Apriso</span><span>Enterprise Apps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IIT Kharagpur -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>ML Research Intern</h3>
+                                <h4><i class="fas fa-university"></i> IIT Kharagpur</h4>
+                            </div>
+                            <span class="timeline-date">Mar 2022 — Feb 2023</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Developed ML/DL algorithms on remote sensing data for satellite imagery change detection.</li>
+                                <li>Published IEEE paper: <em>"Change Detection on Satellite Images using Variational Autoencoders (VAE) and Siamese Networks"</em> at IEEE SCEES24.</li>
+                            </ul>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Python</span><span>PyTorch</span><span>OpenCV</span><span>Deep Learning</span><span>Remote Sensing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-tile">
+                    <div class="project-tile-header">
+                        <i class="fas fa-hospital"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/SoumyoNathTripathy/IBMCAS-Clinic-Automation-System" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Clinic Automation System</h3>
+                    <p>Transforming healthcare management with seamless appointment scheduling, record keeping, and billing. Azure-hosted with SMTP for efficient communication.</p>
+                    <div class="tech-tags">
+                        <span>C#</span><span>ASP.NET MVC</span><span>MySQL</span><span>Azure</span>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <div class="project-tile-header">
+                        <i class="fas fa-vote-yea"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/SoumyoNathTripathy/Apna-Chunav" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Apna Chunav — Blockchain Voting</h3>
+                    <p>Decentralized blockchain-based voting system on Ethereum smart contracts. Uses web3.js for KYC face matching, IPFS for document storage, and Twilio for confirmations.</p>
+                    <div class="tech-tags">
+                        <span>Solidity</span><span>JavaScript</span><span>Web3.js</span><span>Ethereum</span><span>IPFS</span>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <div class="project-tile-header">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3>Satellite Change Detection (IEEE)</h3>
+                    <p>Novel approach using Variational Autoencoders and Siamese Networks for high-precision change detection in geospatial satellite imagery. Published at IEEE SCEES24.</p>
+                    <div class="tech-tags">
+                        <span>Python</span><span>PyTorch</span><span>VAE</span><span>Siamese Networks</span>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <div class="project-tile-header">
+                        <i class="fas fa-signal"></i>
+                    </div>
+                    <h3>TMBOC Transmitter (IEEE)</h3>
+                    <p>Time Multiplexed Binary Offset Carrier transmitter design and spectral mapping for GNSS signals. Published at IEEE SAGECON24.</p>
+                    <div class="tech-tags">
+                        <span>MATLAB</span><span>Signal Processing</span><span>GNSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span> Skills & Technologies
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">TypeScript</span>
+                        <span class="skill-pill">C#</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Solidity</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-aws"></i> AWS & Cloud</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">CDK</span>
+                        <span class="skill-pill">ECS Fargate</span>
+                        <span class="skill-pill">Lambda</span>
+                        <span class="skill-pill">DynamoDB</span>
+                        <span class="skill-pill">Route 53</span>
+                        <span class="skill-pill">CloudFront</span>
+                        <span class="skill-pill">SNS/SQS</span>
+                        <span class="skill-pill">S3</span>
+                        <span class="skill-pill">API Gateway</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">React Native</span>
+                        <span class="skill-pill">.NET Core</span>
+                        <span class="skill-pill">ASP.NET</span>
+                        <span class="skill-pill">Angular</span>
+                        <span class="skill-pill">Spring</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Practices</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">Docker</span>
+                        <span class="skill-pill">CI/CD Pipelines</span>
+                        <span class="skill-pill">Hydra Testing</span>
+                        <span class="skill-pill">MVVM</span>
+                        <span class="skill-pill">System Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> ML/AI</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">PyTorch</span>
+                        <span class="skill-pill">Scikit-learn</span>
+                        <span class="skill-pill">OpenCV</span>
+                        <span class="skill-pill">Pandas</span>
+                        <span class="skill-pill">Deep Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-pill">DynamoDB</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section" id="achievements">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">05.</span> Achievements & Beyond Code
+            </h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+                    <h4>Indian Army SSB Selected</h4>
+                    <p>18th Selection Board (SSB) selected candidate — Indian Army</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>NDA Qualified (2020)</h4>
+                    <p>Qualified National Defence Academy examination</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-atom"></i></div>
+                    <h4>JEE Advanced & GATE</h4>
+                    <p>Qualified JEE Advanced 2020, GATE 2023 & 2024</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-cricket-bat-ball"></i></div>
+                    <h4>Bengal Cricket (CAB)</h4>
+                    <p>Represented Bengal in Cricket Association of Bengal, 2016-2019</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-file-alt"></i></div>
+                    <h4>3 IEEE Publications</h4>
+                    <p>VAE-Siamese (SCEES24), TMBOC Transmitter & MBOC Spectral Mapping (SAGECON24)</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                    <h4>Hackathon Winner</h4>
+                    <p>Time Heist, Web3Init & SERB-INAE hackathon winner</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>IBM Data Science</h4>
+                    <p>IBM Data Science Professional Certificate — Coursera</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-chart-line"></i></div>
+                    <h4>Anaplan Certified</h4>
+                    <p>Anaplan Certified Model Builder 2023-2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">06.</span> Get In Touch
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text">I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!</p>
+                <div class="contact-cards">
+                    <a href="mailto:soumyonath25@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>soumyonath25@gmail.com</span>
+                    </a>
+                    <a href="tel:+918582807621" class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 8582807621</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/soumyo2001/" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/SoumyoNathTripathy" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed & Built by <span class="gradient-text">Soumyo Nath Tripathy</span></p>
+        <p class="footer-sub">© 2026 — Built with passion and lots of ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
